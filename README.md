@@ -22,3 +22,15 @@ Follow the tutorial to build the RAG pipeline yourself. If you get stuck or want
    `source venv/bin/activate`
 3. Install dependencies:
    `pip install -r requirements.txt`
+
+## Acknowledgments
+
+This project began as a learning exercise based on the RAG tutorial and
+example repository by Sarah Barber / Contentful:
+
+https://github.com/sarahbarberuk/rag-tutorial
+https://www.contentful.com/blog/retrieval-augmented-generation-tutorial/
+
+It has since been extended with persistent ChromaDB storage, metadata-based
+document filtering, prompt refinement, retrieval testing, hallucination
+controls, and source attribution.
